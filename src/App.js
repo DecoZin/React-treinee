@@ -1,9 +1,11 @@
 import React from 'react';
+import Title from './Hello World';
 
-function App() {
+function App() 
+{
   return (
-    <div>
-      Hello World
+    <div> 
+      <Title  />
     </div>
   );
 }
