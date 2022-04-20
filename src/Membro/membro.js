@@ -1,12 +1,14 @@
 import React from "react";
 
-function Membro()
+function Membro(props)
 {
+    console.log(props)
     return(
         <div>
-            <p>
-                André
-            </p>
+            <p>{props.membro.nome}</p>
+            <p>{props.membro.idade}</p>
+            <p>{props.membro.faculdade}</p>
+            <p>{props.membro.curso}</p>
         </div>
     );
 }

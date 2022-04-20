@@ -1,7 +1,7 @@
 import React from "react";
 import Subtitle from './Subtitle';
 
-function Title()
+function Hello()
 {
 
   const frase = "Hello World!";
@@ -15,4 +15,4 @@ function Title()
     );
 }
 
-export default Title;
+export default Hello;
